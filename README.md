@@ -5,7 +5,7 @@ A Simple [Cross Origin Resource Sharing](https://developer.mozilla.org/en-US/doc
 # Install
 
 ```bash 
-composer require vluzrmos/lumen-cors
+composer require omarusman/lumen-cors
 ``` 
 
 # Configure
