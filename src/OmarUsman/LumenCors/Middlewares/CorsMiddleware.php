@@ -1,24 +1,25 @@
 <?php
-namespace Vluzrmos\LumenCors\Middlewares;
+namespace OmarUsman\LumenCors\Middlewares;
 
 use Closure;
 use Illuminate\Http\Request;
 
-class CorsMiddleware {
+class CorsMiddleware
+{
 
     // ALLOW OPTIONS METHOD
     protected $headers = [
         'Access-Control-Allow-Origin' => '*',
-        'Access-Control-Allow-Methods'=> 'POST, GET, OPTIONS, PUT, DELETE',
-        'Access-Control-Allow-Headers'=> 'Content-Type, X-Auth-Token, Origin',
-        'Access-Control-Allow-Credentials'=> 'true'
+        'Access-Control-Allow-Methods' => 'POST, GET, OPTIONS, PUT, DELETE',
+        'Access-Control-Allow-Headers' => 'Content-Type, X-Auth-Token, Origin',
+        'Access-Control-Allow-Credentials' => 'true'
     ];
 
     /**
      * Handle an incoming request.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Closure  $next
+     * @param  \Illuminate\Http\Request $request
+     * @param  \Closure $next
      * @return mixed
      */
     public function handle(Request $request, Closure $next)
@@ -32,8 +33,9 @@ class CorsMiddleware {
      * @param $response
      * @return mixed
      */
-    public function setCorsHeaders($response){
-        foreach($this->headers as $key => $value){
+    public function setCorsHeaders($response)
+    {
+        foreach ($this->headers as $key => $value) {
             $response->header($key, $value);
         }
 

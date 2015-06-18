@@ -1,23 +1,27 @@
 {
-	"name": "omarusman/lumen-cors",
-	"description": "A Simple Lumen CORS. This also supports Lumen 5.1.",
-	"keywords": ["Lumen","Laravel","CORS"],
-	"license": "DBAD",
-	"authors": [
-			{
-				"name": "Omar Usman",
-				"email": "oomarusman@gmail.com"
-			}
-	],
-	"require": {
-		"illuminate/support": "5.1.*",
-		"illuminate/http": "5.1.*"
-	},
-	"autoload": {
-		"psr-4": {
-			"Vluzrmos\\": "src/Vluzrmos/"
-		}
-	},
-	"minimum-stability": "stable"
+  "name": "omarusman/lumen-cors",
+  "description": "A Simple Lumen CORS. This also supports Lumen 5.1.",
+  "keywords": [
+    "Lumen",
+    "Laravel",
+    "CORS"
+  ],
+  "license": "DBAD",
+  "authors": [
+    {
+      "name": "Omar Usman",
+      "email": "oomarusman@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "5.1.*",
+    "illuminate/http": "5.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "OmarUsman\\": "src/OmarUsman/"
+    }
+  },
+  "minimum-stability": "stable"
 }
 		
