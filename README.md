@@ -2,13 +2,13 @@
 
 A Simple [Cross Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) for Lumen Framework. Tested on Lumen 5.1.
 
-# Install
+##Install
 
 ```bash 
 composer require omarusman/lumen-cors
 ``` 
 
-# Configure
+##Configure
 
 On <code>boostrap/app.php</code> register the service provider:
 
@@ -28,10 +28,10 @@ $app->middleware([
 
 And that is it!
 
-# License
+##License
 
-DON'T BE A DICK PUBLIC LICENSE 
-------------------------------
+##DON'T BE A DICK PUBLIC LICENSE 
+
 [Source](http://www.dbad-license.org/).
 
 Version 1, December 2009
