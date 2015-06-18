@@ -30,8 +30,9 @@ And that is it!
 
 # License
 
-DON'T BE A DICK PUBLIC LICENSE [Source](http://www.dbad-license.org/).
+DON'T BE A DICK PUBLIC LICENSE 
 ------------------------------
+[Source](http://www.dbad-license.org/).
 
 Version 1, December 2009
 
